@@ -14,6 +14,10 @@
 
 /* Added Elements */
 
+.main-title{
+  padding: 0;
+}
+
 .about {
   display:flex;
   width:100vw;
@@ -24,7 +28,7 @@
 .about-container-content {
   width:30rem;
   height:45rem;
-  margin-top:3rem;
+  margin-top:4rem;
 }
 
 .container-consoles {
@@ -37,16 +41,16 @@
 }
 
 .consoles {
-    background-color: #e6e6e6;
+    background-color: #ffffff80;
     border-radius: 12px;
-    height: 3rem;
-    width: 9rem;
+    height: 3.5rem;
+    width: 9.5rem;
     padding: .5rem .5rem;
     margin: 0 .5rem;
 }
 
 .consoles:hover{
-  background-color: #ffffff80;
+  background-color: #e6e6e6;
   transition: .5s, ease, .5s;
 }
 
@@ -11388,7 +11392,7 @@ section {
 #mainNav .navbar-toggler {
   font-size: 0.875rem;
   padding: 0.75rem 1rem;
-  color: #212529;
+  color: #a6a6a6;
 }
 #mainNav .navbar-nav .nav-item .nav-link {
   color: #a8a8a8;
